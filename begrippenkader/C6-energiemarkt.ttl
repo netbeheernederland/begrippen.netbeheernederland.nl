@@ -546,3 +546,10 @@
     skos:inScheme <> ;
     skos:prefLabel "netbeheerder"@nl ;
     adms:status status:valid .
+
+:x6zcz a skos:Concept ;
+    skos:broader :gnhiy ;
+    skos:definition "vastgestelde hoeveelheid geld per eenheid voor een dienst van de netbeheerder ten behoeve van marktverrekening en facturatie"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "systeemtarief"@nl ;
+    adms:status status:submitted .
