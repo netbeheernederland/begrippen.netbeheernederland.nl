@@ -553,3 +553,58 @@
     skos:inScheme <> ;
     skos:prefLabel "systeemtarief"@nl ;
     adms:status status:submitted .
+
+:jn6a3 a skos:Concept ;
+    skos:broader :cyq9r ;
+    skos:definition "systeemtarief dat per vaste tijdseenheid in rekening wordt gebracht, ongeacht de hoeveelheid getransporteerde energie"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "verbruiksonafhankelijk periodiek systeemtarief"@nl ;
+    skos:scopeNote "Dit tarief heeft een repeterend karakter (zoals een dag- of jaartarief) en is gebaseerd op vaste parameters, zoals de capaciteit van de aansluiting. Het onderscheidt zich enerzijds van verbruiksafhankelijke tarieven (per kWh of m³) en anderzijds van eenmalige vergoedingen (zoals bij aanleg of wijziging van een aansluiting)."@nl ;
+    adms:status status:submitted .
+
+:z37a3 a skos:Concept ;
+    dct:source :qyewj ;
+    skos:altLabel "PAV"@nl ;
+    skos:broader :jn6a3 ;
+    skos:definition "tarief dat in rekening wordt gebracht voor de instandhouding van een aansluiting"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "periodieke aansluitvergoeding"@nl ;
+    adms:status status:submitted .
+
+:jm8kj a skos:Concept ;
+    dct:source :qyewj ;
+    skos:altLabel "TOVT"@nl ;
+    skos:broader :jn6a3 ;
+    skos:definition "tarief dat per vaste tijdseenheid in rekening wordt gebracht ter dekking van de kosten van de transportdienst"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "transportonafhankelijk transporttarief"@nl ;
+    adms:status status:submitted .
+
+:ee4qa a skos:Concept ;
+    skos:altLabel "MT"@nl ;
+    skos:broader :jn6a3 ;
+    skos:definition "tarief dat in rekening wordt gebracht ter dekking van de kosten van de meetdienst"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "meettarief"@nl ;
+    adms:status status:submitted .
+
+:7jthh a skos:Concept ;
+    skos:broader :cyq9r ;
+    skos:definition "systeemtarief dat per vaste hoeveelheid getransporteerde energie in rekening wordt gebracht, waarbij de tariefhoogte afhankelijk is van het moment van transport"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "verbruiksafhankelijk tijdsafhankelijk transporttarief"@nl ;
+    adms:status status:submitted .
+
+:3twby a skos:Concept ;
+    skos:broader :cyq9r ;
+    skos:definition "systeemtarief dat per vaste hoeveelheid getransporteerde energie in rekening wordt gebracht, waarbij de tariefhoogte onafhankelijk is van het moment van transport"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "verbruiksafhankelijk niet-tijdsafhankelijk transporttarief"@nl ;
+    adms:status status:submitted .
+
+:t2df3 a skos:Concept ;
+    skos:broader :gnhiy ;
+    skos:definition "aaneengesloten periode waarbinnen eenzelfde tijdsafhankelijk tarief voor transportkosten van toepassing is"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "transporttariefperiode"@nl ;
+    adms:status status:submitted .
