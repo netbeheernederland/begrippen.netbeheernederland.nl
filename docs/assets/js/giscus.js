@@ -4,7 +4,7 @@ function loadGiscusComments() {
     script.async = true;
     script.crossOrigin = "anonymous";
 
-    script.setAttribute("data-repo", "netbeheer-nederland/begrippen.netbeheernederland.nl");
+    script.setAttribute("data-repo", "netbeheernederland/begrippen.netbeheernederland.nl");
     script.setAttribute("data-repo-id", "R_kgDOQbdEvg");
     script.setAttribute("data-category", "Announcements");
     script.setAttribute("data-category-id", "DIC_kwDOQbdEvs4Cy4mX");
