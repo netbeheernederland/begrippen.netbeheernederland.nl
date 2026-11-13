@@ -39,6 +39,14 @@
     dct:title "Netcode elektriciteit"@nl ;
     foaf:page <https://wetten.overheid.nl/jci1.3:c:BWBR0037940> .
 
+:9e4d3 a foaf:Document ;
+    dct:title "Tarievencode elektriciteit 2026"@nl ;
+    foaf:page <https://wetten.overheid.nl/jci1.3:c:BWBR0052321> .
+
+:933hn a foaf:Document ;
+    dct:title "Tarievencode gas TSB en DSB"@nl ;
+    foaf:page <https://wetten.overheid.nl/jci1.3:c:BWBR0052341> .
+
 :wqe42 a foaf:Document ;
     dct:title "Verordening (EU) 2016/631 (NC RfG)"@nl ;
     foaf:page <http://data.europa.eu/eli/reg/2016/631/oj> .

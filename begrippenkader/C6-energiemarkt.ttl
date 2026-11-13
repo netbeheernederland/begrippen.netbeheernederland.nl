@@ -556,14 +556,14 @@
 
 :jn6a3 a skos:Concept ;
     skos:broader :cyq9r ;
-    skos:definition "systeemtarief dat per vaste tijdseenheid in rekening wordt gebracht, ongeacht de hoeveelheid getransporteerde energie"@nl ;
+    skos:definition "systeemtarief dat in rekening wordt gebracht, ongeacht de hoeveelheid uitgewisselde energie op een aansluiting"@nl ;
     skos:inScheme <> ;
-    skos:prefLabel "verbruiksonafhankelijk periodiek systeemtarief"@nl ;
-    skos:scopeNote "Dit tarief heeft een repeterend karakter (zoals een dag- of jaartarief) en is gebaseerd op vaste parameters, zoals de capaciteit van de aansluiting. Het onderscheidt zich enerzijds van verbruiksafhankelijke tarieven (per kWh of m³) en anderzijds van eenmalige vergoedingen (zoals bij aanleg of wijziging van een aansluiting)."@nl ;
+    skos:prefLabel "verbruiksonafhankelijk systeemtarief"@nl ;
     adms:status status:submitted .
 
 :z37a3 a skos:Concept ;
-    dct:source :qyewj ;
+    dct:source :9e4d3,
+        :933hn ;
     skos:altLabel "PAV"@nl ;
     skos:broader :jn6a3 ;
     skos:definition "tarief dat in rekening wordt gebracht voor de instandhouding van een aansluiting"@nl ;
@@ -571,11 +571,22 @@
     skos:prefLabel "periodieke aansluitvergoeding"@nl ;
     adms:status status:submitted .
 
+:jraj2 a skos:Concept ;
+    dct:source :9e4d3,
+        :933hn ;
+    skos:altLabel "TAVT"@nl ;
+    skos:broader :jn6a3 ;
+    skos:definition "tarief dat per vaste tijdseenheid in rekening wordt gebracht ter dekking van de transportafhankelijke kosten van de transportdienst"@nl ;
+    skos:inScheme <> ;
+    skos:prefLabel "transportafhankelijk transporttarief"@nl ;
+    adms:status status:submitted .
+
 :jm8kj a skos:Concept ;
-    dct:source :qyewj ;
+    dct:source :9e4d3,
+        :933hn ;
     skos:altLabel "TOVT"@nl ;
     skos:broader :jn6a3 ;
-    skos:definition "tarief dat per vaste tijdseenheid in rekening wordt gebracht ter dekking van de kosten van de transportdienst"@nl ;
+    skos:definition "tarief dat per vaste tijdseenheid in rekening wordt gebracht ter dekking van de transportonafhankelijke kosten van de transportdienst"@nl ;
     skos:inScheme <> ;
     skos:prefLabel "transportonafhankelijk transporttarief"@nl ;
     adms:status status:submitted .
